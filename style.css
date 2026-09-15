@@ -1,0 +1,86 @@
+* {
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    height: 90vh;
+}
+.cabecalho-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    height: 7.5%;
+}
+.cabecalho-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+.cabecalho-icone {
+    padding: 1rem;
+}
+.cabecalho-carrosel {
+    background-image: url('iphone-18.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92.5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.card-titulo {
+    font-size: 54px;
+    margin-top: 50px;
+}
+.card-subt {
+    font-size:28px;
+    font-weight: 400;
+}
+.card-text {
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.card-link {
+    border-radius: 24px;
+    border: 1px solid white;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: hsl(194, 95%, 42%);
+    margin: 6px;
+}
+.card-link-primario {
+    background:  hsl(194, 95%, 42%);
+    border: 1px solid hsl(194, 95%, 42%);
+    color: white;
+}
+.card-link-secundario {
+    
+    border: 1px solid hsl(194, 95%, 42%);
+}
+.card-link-secundario:hover {
+    color: white;
+    background:  hsl(194, 95%, 42%);
+}
+
+
+.principal-secao {
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    color: rgb(7, 3, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.iphone-duo {
+    background-image: url(iphone-duo.jpg);
+}
